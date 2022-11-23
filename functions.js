@@ -7,6 +7,8 @@ function social() {
     }
 }
 // Onclick functions on the navbar using javascript
-function onClick() { 
-    document.getElementById("AboutButton").classList.toggle("change");
+function onClickFunction() { 
+    document.getElementById("AboutButton").style.color = "red";
 }
+
+

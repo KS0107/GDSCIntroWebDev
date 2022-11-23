@@ -75,7 +75,16 @@ section {
     position: relative;
     font-weight: bold;
 }
-
+button {
+    background-color: var(--blackground);
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    transition: 0.3s;
+}
 a:link {
     color: var(--defaultlinkcolor); 
     text-decoration: none;
@@ -98,6 +107,7 @@ a:active {
     text-decoration: none;
 }
 
+/* NAVBAR STYLING SECTION  */
 .navbar {
     width: 100vw;
     height: 40px;
@@ -125,39 +135,10 @@ a:active {
     margin-right: auto;
     margin-left: 2rem;
 }
-.elementToFadeOut {
-    opacity: 1;
-    animation: fade 3s cubic-bezier(0.94, 0, 0.03, 0.99) forwards;
-}
-.elementToFadeIn {
-    opacity: 0;
-    animation: fadein 7.5s cubic-bezier(0.51, 0, 0, 1.03) forwards;
-}
-svg {
-    cursor: pointer;
-}
-object {
-	width: 100%;
-	display: block;
-	height: auto;
-	position: relative;
-	padding-top: 100%;
-} 
-#darkg {
-    fill: var(--dark-color);
-}
-#lightg {
-    fill: var(--light-color);
-}
+/* END NAVBAR SECTION  */
 
-@keyframes fade {
-  0%{ opacity: 1 }
-  100% { opacity: 0; visibility: hidden;}
-}
-@keyframes fadein {
-  0%{ opacity: 0 }
-  100% { opacity: 1 }
-}
+
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -204,4 +185,10 @@ object {
 .github {
     color:white;
     background: rgb(31, 31, 31);
+}
+
+/* Enter your CSS below  */
+
+#trial {
+
 }
